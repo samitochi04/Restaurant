@@ -1,0 +1,249 @@
+#loading-container{
+	position:absolute;
+	width:100%;
+	height:100%;
+	background:#000;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 9999;
+	POSITION:fixed;
+}
+.lettre1{
+	color:GREEN;
+	font-size:80px;
+	letter-spacing:15px;
+	margin-bottom:150px;
+	animation: flash 1s linear infinite;
+	animation-delay:0.1s;
+	
+}
+.lettre2{
+	color:GREEN;
+	font-size:80px;
+	letter-spacing:15px;
+	margin-bottom:150px;
+	animation: flash 1s linear infinite;
+	animation-delay:0.2s;
+}
+.lettre3{
+	color:GREEN;
+	font-size:80px;
+	letter-spacing:15px;
+	margin-bottom:150px;
+	animation: flash 1s linear infinite;
+	animation-delay:0.3s;
+}
+.lettre4{
+	color:RED;
+	font-size:80px;
+	letter-spacing:15px;
+	margin-bottom:150px;
+	animation: flash 1s linear infinite;
+	animation-delay:0.4s;
+}
+.lettre5{
+	color:RED;
+	font-size:80px;
+	letter-spacing:15px;
+	margin-bottom:150px;
+	animation: flash 1s linear infinite;
+	animation-delay:0.5s;
+}
+.lettre6{
+	color:RED;
+	font-size:80px;
+	letter-spacing:15px;
+	margin-bottom:150px;
+	animation: flash 1s linear infinite;
+	animation-delay:0.6s;
+}
+.lettre7{
+	color:GOLD;
+	font-size:80px;
+	letter-spacing:15px;
+	margin-bottom:150px;
+	animation: flash 1s linear infinite;
+	animation-delay:0.7s;
+}
+.lettre8{
+	color:GOLD;
+	font-size:80px;
+	letter-spacing:15px;
+	margin-bottom:150px;
+	animation: flash 1s linear infinite;
+	animation-delay:0.8s;
+}
+.lettre9{
+	color:#484848;
+	font-size:80px;
+	letter-spacing:15px;
+	margin-bottom:150px;
+	animation: flash 1s linear infinite;
+	animation-delay:0.9s;
+}
+.lettre10{
+	color:#484848;
+	font-size:80px;
+	letter-spacing:15px;
+	margin-bottom:150px;
+	animation: flash 1s linear infinite;
+	animation-delay:1s;
+}
+@keyframes flash {
+	0%{
+		color:;
+		text-shadow: 0 0 7px #fff900;
+	}
+	90%{
+		color: #484848;
+		text-shadow: none;
+	}
+	100%{
+		color:;
+		text-shadow: 0 0 7px #fff900;
+	}
+
+
+#formulaire {
+	display: none;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 20px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	z-index: 9999;
+   }
+ 
+   #formulaire label {
+	display: block;
+	margin-bottom: 10px;
+   }
+ 
+   #formulaire input[type="text"],
+   #formulaire input[type="date"],
+   #formulaire input[type="email"],
+   #formulaire input[type="tel"] {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 16px;
+	margin-bottom: 20px;
+   }
+ 
+   #formulaire input[type="submit"] {
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+	cursor: pointer;
+   }
+   
+
+
+
+@media (max-width: 1300px) {}
+
+@media (max-width: 1120px) {}
+
+@media (max-width: 992px) {
+  .hero_area {
+    min-height: auto;
+  }
+
+  .custom_nav-container .navbar-nav {
+    padding-top: 15px;
+padding-left: 0;
+    align-items: center;
+  }
+
+  .user_option{
+    justify-content: center;
+    margin-top: 15px;
+  }
+  .custom_nav-container .navbar-nav .nav-item .nav-link {
+    padding: 5px 25px;
+    margin: 5px 0;
+  }
+
+  .slider_section .carousel-indicators {
+    margin-top: 45px;
+  }
+
+  .offer_section .box {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .offer_section .box .img-box {
+    margin-right: 0;
+    margin-bottom: 15px;
+	
+  }
+}
+
+
+@media (max-width: 767px) {
+
+  .about_section .detail-box,
+  .book_section .form_container {
+    margin-bottom: 45px;
+  }
+
+  .about_section .row {
+    flex-direction: column-reverse;
+  }
+
+  .offer_section .box {
+    flex-direction: row;
+    text-align: left;
+  }
+
+  .offer_section .box .img-box {
+    margin-right: 15px;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 576px) {}
+
+@media (max-width: 480px) {}
+
+@media (max-width: 1000px) {
+  .offer_section .box {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .offer_section .box .img-box {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 376px) {
+  .slider_section .detail-box h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+}
+
+
+@media (min-width:576px) and (max-width:991px) {
+  .rent_solution_container .col-md-4.col-sm-6 {
+    float: left;
+    width: 50%;
+  }
+}
